@@ -1,0 +1,56 @@
+//Classes Called From JS
+.changeHeaderColor{
+    background-color: #f2f2f2 !important;
+}
+
+//Jumbotron 
+.custom-jumbotron{
+
+    background-color: $white;
+    box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
+
+
+    @media (min-width: 1200px){
+
+        .btn{
+            display: inline;
+        }
+
+    }
+
+}
+
+.main-homepage-jumbotron{
+    padding: 1rem !important;
+}
+
+.posts-img-holder{
+    height:328px ;
+    overflow:hidden;
+    /* Center An Image Within The Container */
+    display: flex;
+    align-items: center; /* vertical */
+    justify-content: center; /* horizontal */
+}
+
+.show-posts-img-holder{
+    height:388px ;
+    overflow:hidden;
+    /* Center An Image Within The Container */
+    display: flex;
+    align-items: center; /* vertical */
+    justify-content: center; /* horizontal */
+}
+
+.dashboard-create-post{
+    margin-top: 20%;
+}
+
+.show-edit-btn{
+    display: block !important;
+    margin-bottom: 5%;
+}    
+
+.delete-post-btn input{
+    width: 100%;
+}

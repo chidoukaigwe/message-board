@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: $font-family-body;
+    color: $body-color;
+    background: #07394B !important;   
+}
+
+img{
+    max-width: 100%;
+}
