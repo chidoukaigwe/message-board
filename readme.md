@@ -13,6 +13,11 @@ Message Board is a simple Laravel Application, that allows its users to:
 - Ability for the user to edit and delete answers and comments.
 - Application search engine using Algolia.
 
+## Built In:
+- Laravel 5.8
+- SASS
+- Bootstrap 4 
+- MYSQL
 
 ## License
 
